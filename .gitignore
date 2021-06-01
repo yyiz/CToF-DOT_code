@@ -1,0 +1,8 @@
+*.asv
+*.mat
+*.png
+*.fig
+*.txt
+dat/*
+export_fig/
+*desktop.ini
