@@ -2,7 +2,7 @@
 
 <img src="preview_fig.png" alt="drawing" width="100%"/>
 
-Attached is the associated code for our CToF-DOT publication [1]. The code for each figure (assuming it required a simulation or image reconstruction) is placed in its own directory. Within each directory, you will find a RUNME program which should should run out-of-the-box. Note, most programs will create a `fig/` directory at the same level as this package. In this `fig/` directory, you will find the output/plots for the program. Most datasets also require data. This dataset for each program can be found at [this link](https://drive.google.com/file/d/1I5ikdMwnZxfu-KPruNFEOwOizZVEhDrn/view?usp=sharing). Please download the file, rename the directory to `dat`, and place the folder in the top level directory before running.
+Attached is the associated code for our CToF-DOT publication [1]. The code for each figure (assuming it required a simulation or image reconstruction) is placed in its own directory. Within each directory, you will find a RUNME program which should should run out-of-the-box. Note, most programs will create a `fig/` directory at the same level as this package. In this `fig/` directory, you will find the output/plots for the program. Most datasets also require data. This dataset for each program can be found at [this link](https://drive.google.com/file/d/1I5ikdMwnZxfu-KPruNFEOwOizZVEhDrn/view?usp=sharing). Please download the file, rename the directory to `dat`, and place the folder in the top level directory before running. 
 
 Contact: Yongyi Zhao (yongyi@rice.edu)
 
@@ -10,6 +10,20 @@ Additional contributors include:
 - Ankit Raghuram (Rice University)
 - Hyun Kim (Columbia University and New York University)
 - Vivek Boominathan (Rice University)
+
+If you end up using our code or data, please also cite us, thank you!
+
+```
+@article{Zhao2021,
+  author={Zhao, Yongyi and Raghuram, Ankit and Kim, Hyun K. and Hielscher, Andreas H. and Robinson, Jacob T. and Veeraraghavan, Ashok},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={High Resolution, Deep Imaging Using Confocal Time-of-Flight Diffuse Optical Tomography}, 
+  year={2021},
+  volume={43},
+  number={7},
+  pages={2206-2219},
+  doi={10.1109/TPAMI.2021.3075366}}
+```
 
 Misc. Notes:
 1. Our image reconstructions use the FISTA linear inverse solver [2]. 
