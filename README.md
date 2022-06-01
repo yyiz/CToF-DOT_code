@@ -2,7 +2,7 @@
 
 <img src="preview_fig.png" alt="drawing" width="100%"/>
 
-Attached is the associated code for our CToF-DOT publication [1]. The code for each figure (assuming it required a simulation or image reconstruction) is placed in its own directory. Within each directory, you will find a RUNME program which should should run out-of-the-box. Note, most programs will create a `fig/` directory at the same level as this package. In this `fig/` directory, you will find the output/plots for the program. Most datasets also require data. This dataset for each program can be found at [this link](https://drive.google.com/file/d/1I5ikdMwnZxfu-KPruNFEOwOizZVEhDrn/view?usp=sharing). Please download the file, rename the directory to `dat`, and place the folder in the top level directory before running. 
+Attached is the associated code for our CToF-DOT publication [1]. The code for each figure (assuming it required a simulation or image reconstruction) is placed in its own directory. Within each directory, you will find a RUNME program which should should run out-of-the-box. Note, most programs will create a `fig/` directory at the same level as this package. In this `fig/` directory, you will find the output/plots for the program. Most datasets also require data. This dataset for each program can be found at [this link](https://rice.box.com/s/lykgcol5o3ltrf9m92myqhcjv6rj4736). Please download the file, rename the directory to `dat`, and place the folder in the top level directory before running. 
 
 Contact: Yongyi Zhao (yongyi@rice.edu)
 
